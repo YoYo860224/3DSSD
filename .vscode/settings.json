@@ -1,0 +1,7 @@
+{
+    "files.watcherExclude": {
+        "**/data/**": true,
+        "**/dataset/**": true,
+        "**/log/**": true
+    }
+}

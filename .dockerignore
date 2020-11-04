@@ -1,0 +1,12 @@
+log/
+data/
+result/
+weights
+
+.vscode/
+.dockerignore
+.gitigonre
+.git/
+Dockerfile
+LICENSE
+README.md

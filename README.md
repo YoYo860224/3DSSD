@@ -28,6 +28,12 @@ All the codes are tested in the following environment:
 * tensorflow 1.4.0
 * CUDA 9.0 & CuDNN 7.0.0
 
+### Docker
+1. Download [tensorflow 1.4](https://drive.google.com/file/d/142fwmiq8skVUcEqxXny9zA4bNG7YULGn/view?usp=sharing) to `/to/path/3DSSD`.
+2. `docker build -t 3dssd .`
+3. Edit dataset path in `docker_run.sh`
+4. `bash ./docker_run.sh`
+
 ### Performance and Model Zoo
 
 Some pretrained models including 3DSSD and PointRCNN are listed below with their performance, which are trained on 3,717 training samples and evaluated on 3,769 testing samples.
